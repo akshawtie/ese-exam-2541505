@@ -1,0 +1,19 @@
+/* ── App Layout ── */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a0a2e;
+  border-top: 1px solid #3d1f6d;
+  color: #7a6b8a;
+  font-size: 0.9rem;
+}
