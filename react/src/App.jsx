@@ -7,6 +7,7 @@ import Contact from "./components/Contact/Contact";
 import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup";
 import "./App.css";
+import ShoppingCart from "./components/ShoppingCart";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/shop" element={<ShoppingCart />} />
         </Routes>
       </main>
       <footer className="footer">

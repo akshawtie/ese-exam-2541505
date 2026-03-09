@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link to="/">🚀 MyApp</Link>
+        <Link to="/"> MyApp</Link>
       </div>
       <ul className="navbar-links">
         <li>
