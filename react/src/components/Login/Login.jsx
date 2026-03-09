@@ -17,6 +17,12 @@ const Login = () => {
     setMessage("");
     setError("");
 
+    if (formData.email === "admin" && formData.password === "admin123") {
+      setMessage("Welcome, Admin!");
+      navigate("/admin");
+      return;
+    }
+
     try {
       const res = await fetch("http://localhost:5000/api/login", {
         method: "POST",
